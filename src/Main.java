@@ -27,7 +27,7 @@ public class Main {
         jFrame.setVisible(true);
         jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         Dimension dimension = Toolkit.getDefaultToolkit().getScreenSize();
-        jFrame.setBounds(dimension.width / 2 - 250, dimension.height / 2 - 250, 500, 500);
+        jFrame.setBounds(dimension.width / 2 - 400, dimension.height / 2 - 400, 800, 800);
         return jFrame;
     }
 }
